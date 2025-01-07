@@ -45,16 +45,28 @@ python3 -m venv babel_env
   ```
   babel_env\Scripts\activate
   ```
+- For Fish Shell:
+  ```
+  source babel_env/bin/activate.fish
+  ```
+- For C Shell (csh/tcsh):
+  ```
+  source babel_env/bin/activate.csh
+  ```
+- For Windows PowerShell:
+  ```
+  babel_env\Scripts\Activate.ps1
+  ```
 
-4. Install dependencies:
+4. Set up the CONFIG_DIR environment variable:
+- The activation script has been modified to automatically set CONFIG_DIR to
+the `config` directory in the project root.
+
+5. Install dependencies:
 
 ```bash
 pip install -r requirements.txt
 ```
-
-5. Set up the PYTHONUSERBASE environment variable:
-- The activation script has been modified to automatically set PYTHONUSERBASE to
-the `config` directory in the project root.
 
 ### Configuration
 - Any configuration files should be placed in the `config` directory.
