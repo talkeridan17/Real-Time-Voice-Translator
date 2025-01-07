@@ -55,6 +55,25 @@ cover/
 *.mo
 *.pot
 
+# Project virtual enviorment
+babel_env/
+
+# VSCode-specific configuration files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# MacOS Stuff
+.DS_Store
+**/.DS_Store
+
+# Project specific configuration files
+config/
+
+# Log/records stuff
+*.log
+
 # Django stuff:
 *.log
 local_settings.py
