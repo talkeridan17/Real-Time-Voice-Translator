@@ -25,7 +25,7 @@ The Real-Time Voice Translator is an open-source desktop application designed to
 
 ## Technology Stack
 
-- **Programming Language**: Python 3.11 or lower
+- **Programming Language**: Python 3.12.7 or lower
 - **Speech Recognition**: OpenAI's Realtime API or SpeechRecognition library with Google's speech recognition service
 - **Translation**: deep-translator library, with potential integration of OpenAI's GPT-4 for advanced capabilities
 - **Text-to-Speech**: gTTS (Google Text-to-Speech)
