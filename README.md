@@ -12,7 +12,7 @@ seamlessly with various video conferencing platforms.
 
 ## Technologies
 - Python 3.12.7
-- Speech-to-text APIs (to be determined)
+- Speech-to-text APIs (SpeechRecognition, Google Cloud Speech-to-Text, Kaldi)
 - Translation APIs (to be determined)
 - Audio processing tools (to be determined)
 
