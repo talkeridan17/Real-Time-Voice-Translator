@@ -57,6 +57,7 @@ cover/
 
 # Project virtual enviorment
 babel_env/
+babel-venv-*/
 
 # VSCode-specific configuration files
 .vscode/
