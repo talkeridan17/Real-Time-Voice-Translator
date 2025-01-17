@@ -13,7 +13,7 @@ seamlessly with various video conferencing platforms.
 ## Technologies
 - Python 3.12.7
 - Speech-to-text APIs (to be determined)
-- Translation APIs (to be determined)
+- Translation APIs (LibreTranslate)
 - Audio processing tools (to be determined)
 
 ## Setup Instructions
