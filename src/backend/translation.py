@@ -9,7 +9,7 @@ from libretranslatepy import LibreTranslateAPI
 class TranslationModule:
     def __init__(self):
         try:
-            self.translator = LibreTranslateAPI("https://libretranslate.com/", api_key="your_api_key_here") # Add API key here
+            self.translator = LibreTranslateAPI("https://libretranslate.com/", api_key="") # Add API key here
         except Exception as e:
             print(f"Error initializing translator: {str(e)}")
             self.translator = None
